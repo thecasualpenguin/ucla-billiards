@@ -7122,3 +7122,52 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+
+/* Tournament podiums in the club timeline. */
+.timeline .tournament-title {
+  font-weight: 900;
+}
+
+.timeline .winners-card {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 0.85rem;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid #dfe7ee;
+  border-radius: 8px;
+  background-color: #f5f8fb;
+  text-align: left;
+}
+
+.timeline .winners-heading {
+  margin: 0 0 0.4rem;
+  color: #526577;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1.25;
+}
+
+.timeline .winners-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.timeline .winners-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.2rem 0;
+}
+
+.timeline .winner-medal {
+  flex-shrink: 0;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
